@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct BBPos_Firmware_UpdaterApp: App {
+struct BBPosFirmwareUpdaterApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

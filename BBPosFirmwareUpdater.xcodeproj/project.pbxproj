@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7528C97C270E52CC00A58BAE /* ReaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528C97B270E4E8700A58BAE /* ReaderModel.swift */; };
+		7528C97F270F7BCC00A58BAE /* BBDeviceOTA-1.5.21.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DEBA9927060FFA008F2E3B /* BBDeviceOTA-1.5.21.xcframework */; };
+		7528C980270F7BDB00A58BAE /* BBPosOTAManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528C97D270F421A00A58BAE /* BBPosOTAManager.swift */; };
+		7528C983270F7D3900A58BAE /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528C982270F7D3900A58BAE /* DeviceInformation.swift */; };
+		7528C988270F7EB900A58BAE /* BBPosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528C987270F7EB900A58BAE /* BBPosManager.swift */; };
 		7539B48127075B4F00EE79B3 /* BBDevice-AudioAndBT-3.19.1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DEBA9A27060FFC008F2E3B /* BBDevice-AudioAndBT-3.19.1.xcframework */; };
 		7539B48327075DF400EE79B3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7539B48227075DF400EE79B3 /* CoreLocation.framework */; };
 		7539B48527075E4C00EE79B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7539B48427075E4C00EE79B3 /* Foundation.framework */; };
@@ -16,7 +21,7 @@
 		7539B48D27075EF700EE79B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7539B48C27075EF700EE79B3 /* CoreGraphics.framework */; };
 		7539B48F27075F0E00EE79B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7539B48E27075F0E00EE79B3 /* QuartzCore.framework */; };
 		7539B491270760ED00EE79B3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7539B490270760EC00EE79B3 /* libc++.tbd */; };
-		75DAF3C12704BDC000F1CE51 /* BBPos_Firmware_UpdaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF3C02704BDC000F1CE51 /* BBPos_Firmware_UpdaterApp.swift */; };
+		75DAF3C12704BDC000F1CE51 /* BBPosFirmwareUpdaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF3C02704BDC000F1CE51 /* BBPosFirmwareUpdaterApp.swift */; };
 		75DAF3C32704BDC000F1CE51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DAF3C22704BDC000F1CE51 /* ContentView.swift */; };
 		75DAF3C52704BDC300F1CE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF3C42704BDC300F1CE51 /* Assets.xcassets */; };
 		75DAF3C82704BDC300F1CE51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DAF3C72704BDC300F1CE51 /* Preview Assets.xcassets */; };
@@ -30,6 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7528C97B270E4E8700A58BAE /* ReaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderModel.swift; sourceTree = "<group>"; };
+		7528C97D270F421A00A58BAE /* BBPosOTAManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBPosOTAManager.swift; sourceTree = "<group>"; };
+		7528C982270F7D3900A58BAE /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
+		7528C987270F7EB900A58BAE /* BBPosManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBPosManager.swift; sourceTree = "<group>"; };
 		7539B48227075DF400EE79B3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		7539B48427075E4C00EE79B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7539B48627075E8E00EE79B3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -39,9 +48,8 @@
 		7539B48E27075F0E00EE79B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7539B490270760EC00EE79B3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		7581026B2707A92900464A16 /* ReaderScanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderScanner.m; sourceTree = "<group>"; };
-		7581026D2707ABF100464A16 /* ReaderScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderScanner.h; sourceTree = "<group>"; };
 		75DAF3BD2704BDC000F1CE51 /* BBPosFirmwareUpdater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBPosFirmwareUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75DAF3C02704BDC000F1CE51 /* BBPos_Firmware_UpdaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBPos_Firmware_UpdaterApp.swift; sourceTree = "<group>"; };
+		75DAF3C02704BDC000F1CE51 /* BBPosFirmwareUpdaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBPosFirmwareUpdaterApp.swift; sourceTree = "<group>"; };
 		75DAF3C22704BDC000F1CE51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75DAF3C42704BDC300F1CE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DAF3C72704BDC300F1CE51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -75,6 +83,7 @@
 				7539B48527075E4C00EE79B3 /* Foundation.framework in Frameworks */,
 				7539B48327075DF400EE79B3 /* CoreLocation.framework in Frameworks */,
 				7539B48127075B4F00EE79B3 /* BBDevice-AudioAndBT-3.19.1.xcframework in Frameworks */,
+				7528C97F270F7BCC00A58BAE /* BBDeviceOTA-1.5.21.xcframework in Frameworks */,
 				75DEBAA32706111C008F2E3B /* AVFoundation.framework in Frameworks */,
 				75DEBAAB27064D4E008F2E3B /* ExternalAccessory.framework in Frameworks */,
 				75DEBAA727061145008F2E3B /* AudioToolbox.framework in Frameworks */,
@@ -87,6 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7528C981270F7D2C00A58BAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7528C97B270E4E8700A58BAE /* ReaderModel.swift */,
+				7528C982270F7D3900A58BAE /* DeviceInformation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7528C986270F7EA700A58BAE /* BBPosWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				7528C987270F7EB900A58BAE /* BBPosManager.swift */,
+				7528C97D270F421A00A58BAE /* BBPosOTAManager.swift */,
+			);
+			path = BBPosWrappers;
+			sourceTree = "<group>";
+		};
 		75DAF3B42704BDC000F1CE51 = {
 			isa = PBXGroup;
 			children = (
@@ -108,13 +135,14 @@
 		75DAF3BF2704BDC000F1CE51 /* BBPos Firmware Updater */ = {
 			isa = PBXGroup;
 			children = (
-				75DAF3C02704BDC000F1CE51 /* BBPos_Firmware_UpdaterApp.swift */,
+				7528C986270F7EA700A58BAE /* BBPosWrappers */,
+				7528C981270F7D2C00A58BAE /* Models */,
+				75DAF3C02704BDC000F1CE51 /* BBPosFirmwareUpdaterApp.swift */,
 				75DAF3C22704BDC000F1CE51 /* ContentView.swift */,
 				75DAF3C42704BDC300F1CE51 /* Assets.xcassets */,
 				75DAF3C62704BDC300F1CE51 /* Preview Content */,
 				75DAF3D32704FFDF00F1CE51 /* ReaderManager.swift */,
 				7581026B2707A92900464A16 /* ReaderScanner.m */,
-				7581026D2707ABF100464A16 /* ReaderScanner.h */,
 			);
 			path = "BBPos Firmware Updater";
 			sourceTree = "<group>";
@@ -233,9 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7528C97C270E52CC00A58BAE /* ReaderModel.swift in Sources */,
+				7528C980270F7BDB00A58BAE /* BBPosOTAManager.swift in Sources */,
 				75DAF3C32704BDC000F1CE51 /* ContentView.swift in Sources */,
 				75DAF3D42704FFDF00F1CE51 /* ReaderManager.swift in Sources */,
-				75DAF3C12704BDC000F1CE51 /* BBPos_Firmware_UpdaterApp.swift in Sources */,
+				7528C988270F7EB900A58BAE /* BBPosManager.swift in Sources */,
+				7528C983270F7D3900A58BAE /* DeviceInformation.swift in Sources */,
+				75DAF3C12704BDC000F1CE51 /* BBPosFirmwareUpdaterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

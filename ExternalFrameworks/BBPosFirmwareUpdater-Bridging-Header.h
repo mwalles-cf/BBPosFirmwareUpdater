@@ -3,4 +3,4 @@
 //
 
 #import "BBDeviceController.h"
-//#import "ReaderScanner.h"
+#import "BBDeviceOTAController.h"
